@@ -1,0 +1,445 @@
+{
+  "version": 1,
+  "description": "Data dummy GymLog untuk demonstrasi antarmuka UTS praktikum; disertakan dalam aplikasi.",
+  "categories": [
+    {
+      "id": 11,
+      "name": "Chest"
+    },
+    {
+      "id": 12,
+      "name": "Back"
+    },
+    {
+      "id": 9,
+      "name": "Legs"
+    },
+    {
+      "id": 13,
+      "name": "Shoulders"
+    },
+    {
+      "id": 8,
+      "name": "Arms"
+    },
+    {
+      "id": 10,
+      "name": "Abs"
+    },
+    {
+      "id": 14,
+      "name": "Calves"
+    },
+    {
+      "id": 15,
+      "name": "Cardio"
+    }
+  ],
+  "exercises": [
+    {
+      "id": 1001,
+      "name": "Push-up",
+      "category_id": 11,
+      "equipment": [
+        "Berat badan"
+      ],
+      "muscles": [
+        "Dada",
+        "Trisep"
+      ],
+      "description": "1. Letakkan kedua tangan di lantai dan luruskan tubuh.\n2. Tekuk siku untuk menurunkan tubuh secara terkontrol.\n3. Dorong kembali ke posisi awal."
+    },
+    {
+      "id": 1002,
+      "name": "Lat Pulldown",
+      "category_id": 12,
+      "equipment": [
+        "Mesin kabel"
+      ],
+      "muscles": [
+        "Punggung"
+      ],
+      "description": "1. Duduk menghadap mesin dan pegang palang di atas.\n2. Tarik palang ke arah dada bagian atas.\n3. Kembalikan palang ke atas secara terkontrol."
+    },
+    {
+      "id": 1003,
+      "name": "Bodyweight Squat",
+      "category_id": 9,
+      "equipment": [
+        "Berat badan"
+      ],
+      "muscles": [
+        "Paha depan",
+        "Bokong"
+      ],
+      "description": "1. Berdiri dengan kedua kaki terbuka.\n2. Tekuk lutut dan turunkan pinggul sambil menjaga keseimbangan.\n3. Berdiri kembali ke posisi awal."
+    },
+    {
+      "id": 1004,
+      "name": "Shoulder Press",
+      "category_id": 13,
+      "equipment": [
+        "Dumbbell"
+      ],
+      "muscles": [
+        "Bahu",
+        "Trisep"
+      ],
+      "description": "1. Pegang dumbbell setinggi bahu.\n2. Dorong kedua tangan ke atas secara terkontrol.\n3. Turunkan kembali ke posisi awal."
+    },
+    {
+      "id": 1005,
+      "name": "Biceps Curl",
+      "category_id": 8,
+      "equipment": [
+        "Dumbbell"
+      ],
+      "muscles": [
+        "Bisep"
+      ],
+      "description": "1. Berdiri dengan dumbbell di sisi tubuh.\n2. Tekuk siku untuk mengangkat dumbbell ke arah bahu.\n3. Luruskan kembali lengan secara terkontrol."
+    },
+    {
+      "id": 1006,
+      "name": "Plank",
+      "category_id": 10,
+      "equipment": [
+        "Matras"
+      ],
+      "muscles": [
+        "Perut"
+      ],
+      "description": "1. Tumpukan tubuh pada lengan bawah dan ujung kaki.\n2. Pertahankan tubuh dalam satu garis.\n3. Kembali ke posisi istirahat setelah selesai."
+    },
+    {
+      "id": 1007,
+      "name": "Standing Calf Raise",
+      "category_id": 14,
+      "equipment": [
+        "Berat badan"
+      ],
+      "muscles": [
+        "Betis"
+      ],
+      "description": "1. Berdiri tegak dengan kedua kaki menapak.\n2. Angkat tumit hingga bertumpu pada bagian depan telapak kaki.\n3. Turunkan tumit secara terkontrol."
+    },
+    {
+      "id": 1008,
+      "name": "Jumping Jack",
+      "category_id": 15,
+      "equipment": [
+        "Berat badan"
+      ],
+      "muscles": [
+        "Seluruh tubuh"
+      ],
+      "description": "1. Berdiri dengan kedua kaki berdekatan dan tangan di sisi tubuh.\n2. Buka kaki sambil mengangkat kedua lengan.\n3. Kembali ke posisi awal secara berulang."
+    },
+    {
+      "id": 1009,
+      "name": "Bench Press",
+      "category_id": 11,
+      "equipment": [
+        "Barbel",
+        "Bangku"
+      ],
+      "muscles": [
+        "Dada",
+        "Trisep"
+      ],
+      "description": "1. Berbaring pada bangku dengan kedua kaki menapak.\n2. Pegang barbel dan turunkan secara terkontrol ke arah dada.\n3. Dorong kembali ke posisi awal."
+    },
+    {
+      "id": 1010,
+      "name": "Seated Cable Row",
+      "category_id": 12,
+      "equipment": [
+        "Mesin kabel"
+      ],
+      "muscles": [
+        "Punggung",
+        "Bisep"
+      ],
+      "description": "1. Duduk dengan kedua kaki bertumpu pada penyangga.\n2. Tarik pegangan ke arah tubuh sambil mempertahankan punggung tegak.\n3. Luruskan kembali lengan secara terkontrol."
+    },
+    {
+      "id": 1011,
+      "name": "Goblet Squat",
+      "category_id": 9,
+      "equipment": [
+        "Dumbbell"
+      ],
+      "muscles": [
+        "Paha depan",
+        "Bokong"
+      ],
+      "description": "1. Berdiri sambil memegang dumbbell di depan dada.\n2. Turunkan pinggul dengan menekuk lutut.\n3. Dorong tubuh kembali ke posisi berdiri."
+    },
+    {
+      "id": 1012,
+      "name": "Lateral Raise",
+      "category_id": 13,
+      "equipment": [
+        "Dumbbell"
+      ],
+      "muscles": [
+        "Bahu"
+      ],
+      "description": "1. Berdiri dengan dumbbell di sisi tubuh.\n2. Angkat kedua lengan ke samping dengan siku sedikit tertekuk.\n3. Turunkan kembali secara terkontrol."
+    },
+    {
+      "id": 1013,
+      "name": "Hammer Curl",
+      "category_id": 8,
+      "equipment": [
+        "Dumbbell"
+      ],
+      "muscles": [
+        "Bisep",
+        "Lengan bawah"
+      ],
+      "description": "1. Pegang dumbbell dengan telapak tangan menghadap ke dalam.\n2. Tekuk siku untuk mengangkat beban.\n3. Turunkan kembali sambil mempertahankan posisi siku."
+    },
+    {
+      "id": 1014,
+      "name": "Dead Bug",
+      "category_id": 10,
+      "equipment": [
+        "Matras"
+      ],
+      "muscles": [
+        "Perut"
+      ],
+      "description": "1. Berbaring dengan kedua lengan dan kaki diangkat.\n2. Luruskan satu lengan dan kaki berlawanan secara bergantian.\n3. Kembalikan ke posisi awal sebelum mengganti sisi."
+    },
+    {
+      "id": 1015,
+      "name": "Seated Calf Raise",
+      "category_id": 14,
+      "equipment": [
+        "Dumbbell",
+        "Bangku"
+      ],
+      "muscles": [
+        "Betis"
+      ],
+      "description": "1. Duduk dengan kaki menapak dan dumbbell bertumpu di atas paha.\n2. Angkat kedua tumit.\n3. Turunkan kembali secara terkontrol."
+    },
+    {
+      "id": 1016,
+      "name": "High Knees",
+      "category_id": 15,
+      "equipment": [
+        "Berat badan"
+      ],
+      "muscles": [
+        "Paha depan",
+        "Perut"
+      ],
+      "description": "1. Berdiri tegak dengan kaki terbuka.\n2. Angkat lutut secara bergantian di depan tubuh.\n3. Gerakkan lengan mengikuti langkah."
+    },
+    {
+      "id": 1017,
+      "name": "Diamond Push-up",
+      "category_id": 11,
+      "equipment": [
+        "Berat badan"
+      ],
+      "muscles": [
+        "Dada",
+        "Trisep"
+      ],
+      "description": "1. Ambil posisi push-up dengan kedua tangan berdekatan.\n2. Turunkan tubuh dengan menekuk siku.\n3. Dorong kembali sambil mempertahankan posisi tubuh."
+    },
+    {
+      "id": 1018,
+      "name": "Dumbbell Row",
+      "category_id": 12,
+      "equipment": [
+        "Dumbbell",
+        "Bangku"
+      ],
+      "muscles": [
+        "Punggung",
+        "Bisep"
+      ],
+      "description": "1. Tumpukan satu tangan pada bangku dan pegang dumbbell dengan tangan lainnya.\n2. Tarik dumbbell ke arah sisi tubuh.\n3. Turunkan kembali, lalu ulangi pada sisi lainnya."
+    },
+    {
+      "id": 1019,
+      "name": "Lunge",
+      "category_id": 9,
+      "equipment": [
+        "Berat badan"
+      ],
+      "muscles": [
+        "Paha depan",
+        "Bokong"
+      ],
+      "description": "1. Berdiri tegak lalu langkahkan satu kaki ke depan.\n2. Tekuk kedua lutut untuk menurunkan tubuh.\n3. Kembali berdiri dan ganti sisi."
+    },
+    {
+      "id": 1020,
+      "name": "Front Raise",
+      "category_id": 13,
+      "equipment": [
+        "Dumbbell"
+      ],
+      "muscles": [
+        "Bahu"
+      ],
+      "description": "1. Berdiri sambil memegang dumbbell di depan paha.\n2. Angkat lengan ke depan secara terkontrol.\n3. Kembalikan dumbbell ke posisi awal."
+    },
+    {
+      "id": 1021,
+      "name": "Triceps Extension",
+      "category_id": 8,
+      "equipment": [
+        "Dumbbell"
+      ],
+      "muscles": [
+        "Trisep"
+      ],
+      "description": "1. Pegang dumbbell di atas kepala.\n2. Tekuk siku untuk menurunkan dumbbell ke belakang kepala.\n3. Luruskan kembali siku secara terkontrol."
+    },
+    {
+      "id": 1022,
+      "name": "Crunch",
+      "category_id": 10,
+      "equipment": [
+        "Matras"
+      ],
+      "muscles": [
+        "Perut"
+      ],
+      "description": "1. Berbaring dengan lutut tertekuk dan kaki menapak.\n2. Angkat bahu dari matras secara terkontrol.\n3. Turunkan kembali bahu ke posisi awal."
+    },
+    {
+      "id": 1023,
+      "name": "Single-leg Calf Raise",
+      "category_id": 14,
+      "equipment": [
+        "Berat badan"
+      ],
+      "muscles": [
+        "Betis"
+      ],
+      "description": "1. Berdiri dengan bertumpu pada satu kaki dan gunakan pegangan bila diperlukan.\n2. Angkat tumit kaki penumpu.\n3. Turunkan kembali, lalu ganti kaki."
+    },
+    {
+      "id": 1024,
+      "name": "March in Place",
+      "category_id": 15,
+      "equipment": [
+        "Berat badan"
+      ],
+      "muscles": [
+        "Kaki"
+      ],
+      "description": "1. Berdiri dengan tubuh tegak.\n2. Langkahkan kaki secara bergantian di tempat.\n3. Ayunkan lengan mengikuti langkah."
+    },
+    {
+      "id": 1025,
+      "name": "Dumbbell Fly",
+      "category_id": 11,
+      "equipment": [
+        "Dumbbell",
+        "Bangku"
+      ],
+      "muscles": [
+        "Dada"
+      ],
+      "description": "1. Berbaring pada bangku sambil memegang dumbbell di atas dada.\n2. Buka kedua lengan dengan siku sedikit tertekuk.\n3. Kembalikan kedua lengan ke posisi awal secara terkontrol."
+    },
+    {
+      "id": 1026,
+      "name": "Pull-up",
+      "category_id": 12,
+      "equipment": [
+        "Palang pull-up"
+      ],
+      "muscles": [
+        "Punggung",
+        "Bisep"
+      ],
+      "description": "1. Pegang palang dan biarkan tubuh menggantung.\n2. Tarik tubuh ke arah palang.\n3. Turunkan tubuh secara terkontrol ke posisi awal."
+    },
+    {
+      "id": 1027,
+      "name": "Leg Press",
+      "category_id": 9,
+      "equipment": [
+        "Mesin leg press"
+      ],
+      "muscles": [
+        "Paha depan",
+        "Bokong"
+      ],
+      "description": "1. Duduk pada mesin dan tempatkan kaki pada platform.\n2. Dorong platform dengan kedua kaki.\n3. Tekuk kembali lutut secara terkontrol."
+    },
+    {
+      "id": 1028,
+      "name": "Arnold Press",
+      "category_id": 13,
+      "equipment": [
+        "Dumbbell",
+        "Bangku"
+      ],
+      "muscles": [
+        "Bahu",
+        "Trisep"
+      ],
+      "description": "1. Duduk sambil memegang dumbbell di depan bahu.\n2. Putar lengan sambil mendorong dumbbell ke atas.\n3. Balikkan gerakan untuk kembali ke posisi awal."
+    },
+    {
+      "id": 1029,
+      "name": "Triceps Pushdown",
+      "category_id": 8,
+      "equipment": [
+        "Mesin kabel"
+      ],
+      "muscles": [
+        "Trisep"
+      ],
+      "description": "1. Berdiri menghadap mesin dengan siku di sisi tubuh.\n2. Dorong pegangan ke bawah dengan meluruskan siku.\n3. Kembalikan pegangan secara terkontrol."
+    },
+    {
+      "id": 1030,
+      "name": "Mountain Climber",
+      "category_id": 10,
+      "equipment": [
+        "Matras",
+        "Berat badan"
+      ],
+      "muscles": [
+        "Perut",
+        "Paha depan"
+      ],
+      "description": "1. Ambil posisi tubuh seperti awal push-up.\n2. Gerakkan satu lutut ke arah depan tubuh.\n3. Kembalikan kaki lalu ganti sisi secara bergantian."
+    },
+    {
+      "id": 1031,
+      "name": "Calf Press",
+      "category_id": 14,
+      "equipment": [
+        "Mesin leg press"
+      ],
+      "muscles": [
+        "Betis"
+      ],
+      "description": "1. Duduk pada mesin dengan bagian depan telapak kaki pada platform.\n2. Dorong platform menggunakan gerakan pergelangan kaki.\n3. Kembalikan secara terkontrol."
+    },
+    {
+      "id": 1032,
+      "name": "Step Touch",
+      "category_id": 15,
+      "equipment": [
+        "Berat badan"
+      ],
+      "muscles": [
+        "Kaki"
+      ],
+      "description": "1. Berdiri dengan kedua kaki berdekatan.\n2. Langkahkan satu kaki ke samping lalu dekatkan kaki lainnya.\n3. Ulangi ke arah sebaliknya."
+    }
+  ]
+}
